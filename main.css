@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container{
+    width: 1440px;
+    margin: 40px auto;
+}
+h1, h2{
+    margin-bottom: 1em;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    width: 50%;
+}
+li{
+    padding: 10px 20px;
+    width: 90%;
+    background-color: green;
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#ready li{
+    background-color: aquamarine;
+    color: black;
+}
+form{
+    margin-bottom: 20px;
+}
+input, button{
+    font-size: 18px;
+    padding: 20px;
+}
+button{
+    cursor: pointer;
+}
